@@ -5,3 +5,6 @@ https://komal-bora.github.io/MotionCut/Project1_Animated-Login-Form/
 
 Task 2: Dynamic Image Slider
 https://komal-bora.github.io/MotionCut/Project2_dynamic-image-slider/
+
+Task 3: E-commerce Product Page
+https://komal-bora.github.io/MotionCut/Project3_E-commerce-product-page/

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Cooked Tiffin Service</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- sidebar -->
+     <div class="sidebar">
+        <!-- logo -->
+         <h1 class="logo">Food Time</h1>
+
+         <!-- list of menus -->
+          <div class="sidebar-menus">
+            <a href="#"><ion-icon name="storefront-outline"></ion-icon> Home</a>
+            <a href="testimonials.html"><ion-icon name="newspaper-outline"></ion-icon> Testimonials </a>
+            <a href="contact.html"><ion-icon name="chatbubbles-outline"></ion-icon> Contact Us</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon> Setting</a>
+          </div>
+
+         <!-- Logout -->
+          <div class="sidebar-logout">
+            <a href="#">
+                <a href="#"><ion-icon name="log-out-outline"></ion-icon> Logout</a></a>
+          </div>
+     </div>
+
+    <!-- main -->
+     <div class="main">
+        <!-- main navbar -->
+         <div class="main-navbar">
+            <!-- main when appear in mobile version -->
+             <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+             <!-- search bar -->
+              <div class="search">
+                <input type="text" placeholder="What do you want to have?">
+                <button class="search-btn">Search</button>
+              </div>
+              <!-- profile icon on left side of navbar -->
+               <div class="profile">
+                <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+                <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+               </div>
+         </div>
+         <!-- main highlight -->
+          <div class="main-highlight">
+            <!-- title section and arrow -->
+             <div class="main-header">
+                <h2 class="main-title">Recommendations</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+             </div>
+             <!-- highlighted menu -->
+              <div class="highlight-wrapper">
+                <div class="highlight-card">
+                    <img class="highlight-img" src="images/biryani.jpg">
+                    <div class="highlight-desc">
+                      <h4>Biryani</h4>
+                      <p>Rs 50</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                  <img class="highlight-img" src="images/chole-bhature.jpeg">
+                  <div class="highlight-desc">
+                    <h4>Chole Bhature</h4>
+                    <p>Rs 50</p>
+                  </div>
+                </div>
+                <div class="highlight-card">
+                  <img class="highlight-img" src="images/dal-makhni.jpg">
+                  <div class="highlight-desc">
+                    <h4>Dal Makhni</h4>
+                    <p>Rs 50</p>
+                  </div>
+                </div>
+                <div class="highlight-card">
+                  <img class="highlight-img" src="images/khichdi.jpg">
+                  <div class="highlight-desc">
+                    <h4>Khichdi</h4>
+                    <p>Rs 50</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- main menu order -->
+           <div class="main-menus">
+            <!-- filter section -->
+             <div class="main-filter">
+              <div>
+                <h2 class="main-title">Menu <br>Category</h2>
+                <div class="main-arrow">
+                  <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+                  <ion-icon class="next-menus" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="filter-wrapper">
+                <div class="filter-card">
+                  <div class="filter-icon">
+                    <ion-icon name="restaurant-outline"></ion-icon>
+                  </div>
+                  <p>All Menus</p>
+                </div>
+                <div class="filter-card">
+                  <div class="filter-icon">
+                    <ion-icon name="fast-food-outline"></ion-icon>
+                  </div>
+                  <p>Burger</p>
+                </div>
+                <div class="filter-card">
+                  <div class="filter-icon">
+                    <ion-icon name="pizza-outline"></ion-icon>
+                  </div>
+                  <p>Pizza</p>
+                </div>
+                <div class="filter-card">
+                  <div class="filter-icon">
+                    <ion-icon name="wine-outline"></ion-icon>
+                  </div>
+                  <p>Wine</p>
+                </div>
+                <div class="filter-card">
+                  <div class="filter-icon">
+                    <ion-icon name="ice-cream-outline"></ion-icon>
+                  </div>
+                  <p>Ice Cream</p>
+                </div>
+                <div class="filter-card">
+                  <div class="filter-icon">
+                    <ion-icon name="cafe-outline"></ion-icon>
+                  </div>
+                  <p>Coffee</p>
+                </div>
+                <div class="filter-card">
+                  <div class="filter-icon">
+                    <ion-icon name="fish-outline"></ion-icon>
+                  </div>
+                  <p>Sea Food</p>
+                </div>
+                <div class="filter-card">
+                  <div class="filter-icon">
+                    <ion-icon name="nutrition-outline"></ion-icon>
+                  </div>
+                  <p>Healthy</p>
+                </div>
+              </div>
+             </div>
+             <hr class="divider">
+             <!-- list of food -->
+              <div class="main-detail">
+                <h2 class="main-title">Choose Order</h2>
+                <div class="detail-wrapper">
+                  <div class="detail-card">
+                    <img class="detail-img" src="images/biryani.jpg">
+                    <div class="detail-desc">
+                      <div class="detail-name">
+                      <h4>Biryani</h4>
+                      <p class="detail-sub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsam voluptatibus inventore quaerat molestiae cumque velit. Esse veniam maxime repellendus reiciendis cum voluptates doloremque, magni perferendis atque iusto qui saepe.</p>
+                      <p class="price">Rs 152</p>
+                    </div>
+                    <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="detail-card">
+                    <img class="detail-img" src="images/chole-bhature.jpeg">
+                    <div class="detail-desc">
+                      <div class="detail-name">
+                      <h4>Chole Bhature</h4>
+                      <p class="detail-sub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsam voluptatibus inventore quaerat molestiae cumque velit. Esse veniam maxime repellendus reiciendis cum voluptates doloremque, magni perferendis atque iusto qui saepe.</p>
+                      <p class="price">Rs 152</p>
+                    </div>
+                    <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="detail-card">
+                    <img class="detail-img" src="images/chole-kulche.jpg">
+                    <div class="detail-desc">
+                      <div class="detail-name">
+                      <h4>Chole Kulche</h4>
+                      <p class="detail-sub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsam voluptatibus inventore quaerat molestiae cumque velit. Esse veniam maxime repellendus reiciendis cum voluptates doloremque, magni perferendis atque iusto qui saepe.</p>
+                      <p class="price">Rs 152</p>
+                    </div>
+                    <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="detail-card">
+                    <img class="detail-img" src="images/dal-makhni.jpg">
+                    <div class="detail-desc">
+                      <div class="detail-name">
+                      <h4>Dal Makhni</h4>
+                      <p class="detail-sub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsam voluptatibus inventore quaerat molestiae cumque velit. Esse veniam maxime repellendus reiciendis cum voluptates doloremque, magni perferendis atque iusto qui saepe.</p>
+                      <p class="price">Rs 152</p>
+                    </div>
+                    <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="detail-card">
+                    <img class="detail-img" src="images/dosa.jpg">
+                    <div class="detail-desc">
+                      <div class="detail-name">
+                      <h4>Dosa</h4>
+                      <p class="detail-sub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsam voluptatibus inventore quaerat molestiae cumque velit. Esse veniam maxime repellendus reiciendis cum voluptates doloremque, magni perferendis atque iusto qui saepe.</p>
+                      <p class="price">Rs 152</p>
+                    </div>
+                    <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="detail-card">
+                    <img class="detail-img" src="images/kadi-pakoda.jpeg">
+                    <div class="detail-desc">
+                      <div class="detail-name">
+                      <h4>Kadi Pakoda</h4>
+                      <p class="detail-sub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsam voluptatibus inventore quaerat molestiae cumque velit. Esse veniam maxime repellendus reiciendis cum voluptates doloremque, magni perferendis atque iusto qui saepe.</p>
+                      <p class="price">Rs 152</p>
+                    </div>
+                    <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="detail-card">
+                    <img class="detail-img" src="images/khichdi.jpg">
+                    <div class="detail-desc">
+                      <div class="detail-name">
+                      <h4>Khichdi</h4>
+                      <p class="detail-sub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsam voluptatibus inventore quaerat molestiae cumque velit. Esse veniam maxime repellendus reiciendis cum voluptates doloremque, magni perferendis atque iusto qui saepe.</p>
+                      <p class="price">Rs 152</p>
+                    </div>
+                    <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="detail-card">
+                    <img class="detail-img" src="images/masala-idli.jpg">
+                    <div class="detail-desc">
+                      <div class="detail-name">
+                      <h4>Masala Idli</h4>
+                      <p class="detail-sub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsam voluptatibus inventore quaerat molestiae cumque velit. Esse veniam maxime repellendus reiciendis cum voluptates doloremque, magni perferendis atque iusto qui saepe.</p>
+                      <p class="price">Rs 152</p>
+                    </div>
+                    <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="detail-card">
+                    <img class="detail-img" src="images/mix-veg.jpeg">
+                    <div class="detail-desc">
+                      <div class="detail-name">
+                      <h4>Mix Veg</h4>
+                      <p class="detail-sub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsam voluptatibus inventore quaerat molestiae cumque velit. Esse veniam maxime repellendus reiciendis cum voluptates doloremque, magni perferendis atque iusto qui saepe.</p>
+                      <p class="price">Rs 152</p>
+                    </div>
+                    <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="detail-card">
+                    <img class="detail-img" src="images/rajma-rice.jpg">
+                    <div class="detail-desc">
+                      <div class="detail-name">
+                      <h4>Rajma Rice</h4>
+                      <p class="detail-sub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsam voluptatibus inventore quaerat molestiae cumque velit. Esse veniam maxime repellendus reiciendis cum voluptates doloremque, magni perferendis atque iusto qui saepe.</p>
+                      <p class="price">Rs 152</p>
+                    </div>
+                    <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  </div>
+                  <div class="detail-card">
+                    <img class="detail-img" src="images/roti-sabzi.jpg">
+                    <div class="detail-desc">
+                      <div class="detail-name">
+                      <h4>Roti Sabzi</h4>
+                      <p class="detail-sub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsam voluptatibus inventore quaerat molestiae cumque velit. Esse veniam maxime repellendus reiciendis cum voluptates doloremque, magni perferendis atque iusto qui saepe.</p>
+                      <p class="price">Rs 152</p>
+                    </div>
+                    <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+          <!-- Footer -->
+         <footer>
+          <div class="footer-container">
+              <p>&copy; 2024 Tiffin Service. All rights reserved.</p>
+          </div>
+      </footer>
+      </div>
+
+         
+</body>
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!-- adding js -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="app.js"></script>
+</html>
